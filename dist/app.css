@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #58402C;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 500px;
+}
+
+header .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  height: 80px;
+  width: 100vw;
+  padding-top: 0.5%;
+}
+
+header .navbar .navleft {
+  margin-left: 12%;
+}
+
+header .navbar .navright {
+  width: 30%;
+  margin-right: 12%;
+}
+
+header .navbar .navright span {
+  margin: 0 4%;
+}
+
+header .navbar .navright button {
+  background-color: #fff;
+  border: 1px solid #2E4691;
+  color: #2E4691;
+  border-radius: 5px;
+  padding: 1.5%;
+}
+
+header .navbar .navright button:hover {
+  background-color: #2E4691;
+  color: #fff;
+}
+
+header .jumbotron {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  height: calc(500px - 80px);
+}
+
+header .jumbotron .jumboleft {
+  width: 50%;
+  height: 400px;
+  margin-left: 12%;
+  margin-right: 5%;
+  line-height: 1.4;
+}
+
+header .jumbotron .jumboleft button {
+  background-color: #2E4691;
+  color: #fff;
+  border: 1px solid #2E4691;
+  padding: 1.5%;
+  border-radius: 5px;
+  margin-bottom: 2.5%;
+}
+
+header .jumbotron .jumboleft button:hover {
+  background-color: #30488F;
+  border: 1px solid #30488F;
+}
+
+header .jumbotron .jumboleft span {
+  margin: 0 1.5%;
+  color: #BDB5AF;
+}
+
+header .jumbotron .jumboleft h1 {
+  font-size: 55px;
+}
+
+header .jumbotron .jumboleft p {
+  font-size: 25px;
+  margin: 3% 2% 3% 0;
+}
+
+header .jumbotron .jumboright {
+  width: 50%;
+  height: 400px;
+  margin-right: 12%;
+}
+
+header .jumbotron .jumboright img {
+  width: 100%;
+}
+
+main .beige {
+  text-align: center;
+  width: 100%;
+  background-color: #ffe7d2;
+  padding: 4% 0;
+}
+
+main .beige h2 {
+  font-size: 28px;
+}
+
+main .beige p,
+main .beige a {
+  font-size: 18px;
+}
+
+main .beige .beigeup {
+  margin: 2% 25%;
+}
+
+main .beige .beigeup h2 {
+  margin: 2% 15% 4% 15%;
+}
+
+main .beige .beigeup img {
+  width: 40%;
+  margin-bottom: 8%;
+}
+
+main .beige .beigeup .treimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .beige .beigeup .treimg .one {
+  width: 25%;
+  margin: 8% 0;
+}
+
+main .beige .beigeup .treimg img {
+  width: 80%;
+}
+
+main .beige .beigeup .treimg .one .safe {
+  width: 30%;
+}
+
+main .whitecenter {
+  line-height: 1.6;
+  width: 100%;
+}
+
+main .whitecenter h2 {
+  font-size: 28px;
+}
+
+main .whitecenter p,
+main .whitecenter a {
+  font-size: 18px;
+}
+
+main .whitecenter .white {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .whitecenter .white p {
+  margin: 4% 0;
+}
+
+main .whitecenter .white img {
+  width: 80%;
+  margin-top: 8%;
+}
+
+main .whitecenter .white img.display {
+  width: 60%;
+}
+
+main .whitecenter .white .info {
+  margin: 0 4%;
+}
+
+main .whitecenter .left {
+  margin: 4% 20% 4% 0;
+}
+
+main .whitecenter .right {
+  margin: 4% 0 4% 20%;
+}
+
+main .lastbeige {
+  width: 100%;
+  background-color: #ffe7d2;
+  text-align: center;
+  padding: 4% 20%;
+}
+
+main .lastbeige button {
+  background-color: #2E4691;
+  color: #fff;
+  border: 1px solid #2E4691;
+  padding: 1.5%;
+  border-radius: 5px;
+  margin-bottom: 2.5%;
+}
+
+main .lastbeige button:hover {
+  background-color: #30488F;
+  border: 1px solid #30488F;
+}
+
+main .lastbeige span {
+  margin: 0 1.5%;
+  color: #BDB5AF;
+}
+
+main .lastbeige h2 {
+  font-size: 40px;
+}
+
+main .lastbeige blockquote {
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid #000;
+  margin: 4% 15%;
+  line-height: 2;
+  padding: 2.5% 4%;
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 6% 12%;
+}
+
+footer .footone {
+  width: 40%;
+  height: 300px;
+  font-size: 18px;
+  margin-right: 10%;
+}
+
+footer .footone a {
+  color: #30488F;
+}
+
+footer .footone img {
+  width: 18%;
+  float: left;
+  margin-right: 6%;
+}
+
+footer .foot {
+  width: 20%;
+  height: 300px;
+  line-height: 2;
+}
+
+footer .foot span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer .foot ul {
+  list-style: none;
+}
+
+footer .foot ul li {
+  margin-bottom: 2%;
+}
+
