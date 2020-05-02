@@ -9,6 +9,12 @@ a {
   text-decoration: none;
 }
 
+hr {
+  margin: 50px 0 80px;
+  border-width: 0;
+  border-top: 1px solid #bdb5af;
+}
+
 header {
   height: 500px;
 }
@@ -22,9 +28,8 @@ header .navbar {
   position: fixed;
   top: 0;
   z-index: 1;
-  height: 80px;
+  height: 70px;
   width: 100vw;
-  padding-top: 0.5%;
 }
 
 header .navbar .navleft {
@@ -34,10 +39,6 @@ header .navbar .navleft {
 header .navbar .navright {
   width: 30%;
   margin-right: 12%;
-}
-
-header .navbar .navright span {
-  margin: 0 4%;
 }
 
 header .navbar .navright button {
@@ -51,6 +52,48 @@ header .navbar .navright button {
 header .navbar .navright button:hover {
   background-color: #2E4691;
   color: #fff;
+}
+
+header .navbar .navright span {
+  margin: 0 4%;
+}
+
+header .navbar .navright span ul {
+  list-style: none;
+}
+
+header .navbar .navright span ul li a {
+  margin-bottom: 2%;
+}
+
+header .navbar .navright span ul li a:hover {
+  color: #30488F;
+}
+
+header .navbar .navright img {
+  vertical-align: middle;
+}
+
+header .navbar .navright:hover {
+  color: #30488F;
+}
+
+header .navbar .displaymenu ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 0 2% 0 1%;
+  margin-left: 0.5%;
+  box-shadow: 0 0 3px #888888;
+  border-radius: 5px;
+}
+
+header .navbar .displaymenu ul li {
+  line-height: 2;
+}
+
+header .navbar .displaymenu:hover ul {
+  display: block;
 }
 
 header .jumbotron {
@@ -87,6 +130,10 @@ header .jumbotron .jumboleft button:hover {
 header .jumbotron .jumboleft span {
   margin: 0 1.5%;
   color: #BDB5AF;
+}
+
+header .jumbotron .jumboleft a:hover {
+  color: #30488F;
 }
 
 header .jumbotron .jumboleft h1 {
@@ -129,7 +176,7 @@ main .beige .beigeup {
 }
 
 main .beige .beigeup h2 {
-  margin: 2% 15% 4% 15%;
+  margin: 2% 15% 4%;
 }
 
 main .beige .beigeup img {
@@ -151,6 +198,10 @@ main .beige .beigeup .treimg .one {
 
 main .beige .beigeup .treimg img {
   width: 80%;
+}
+
+main .beige .beigeup .treimg .one .notsafe {
+  width: 70%;
 }
 
 main .beige .beigeup .treimg .one .safe {
@@ -229,6 +280,10 @@ main .lastbeige span {
   color: #BDB5AF;
 }
 
+main .lastbeige a:hover {
+  color: #30488F;
+}
+
 main .lastbeige h2 {
   font-size: 40px;
 }
@@ -275,16 +330,20 @@ footer .foot {
   line-height: 2;
 }
 
-footer .foot span {
-  font-weight: bold;
-  font-size: 20px;
-}
-
 footer .foot ul {
   list-style: none;
 }
 
-footer .foot ul li {
+footer .foot ul li a {
   margin-bottom: 2%;
+}
+
+footer .foot ul li a:hover {
+  color: #30488F;
+}
+
+footer .foot span {
+  font-weight: bold;
+  font-size: 20px;
 }
 

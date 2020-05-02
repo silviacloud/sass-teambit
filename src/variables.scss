@@ -1,0 +1,82 @@
+
+@mixin my-dont-know{
+  width:50%;
+  height: 400px;
+}
+
+@mixin my-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin my-font{
+  h2{
+    font-size:28px;
+  }
+  p, a{
+    font-size: 18px;
+  }
+
+}
+
+@mixin my-butt{
+  button{
+    background-color: #2E4691;
+    color: #fff;
+    border: 1px solid #2E4691;
+    padding: 1.5%;
+    border-radius: 5px;
+    margin-bottom: 2.5%;
+    &:hover{
+    background-color: #30488F;
+    border: 1px solid #30488F;
+    }
+  }
+  span{
+    margin: 0 1.5%;
+    color:#BDB5AF;
+  }
+  a{
+    &:hover{
+      color:#30488F;
+    }
+  }
+}
+
+@mixin my-one-of-three{
+  .beigeup{
+    margin: 2% 25%;
+    h2{
+      margin: 2% 15% 4%;
+    }
+    img{
+      width: 40%;
+      margin-bottom: 8%;
+    }
+    .treimg{
+      @include my-flex;
+      .one{
+        width: 25%;
+        margin: 8% 0;
+      }
+      img{
+        width: 80%;
+      }
+    }
+
+  }
+}
+
+@mixin my-ul{
+  ul{
+    list-style: none;
+    li a{
+      margin-bottom: 2%;
+      &:hover{
+        color:#30488F;
+      }
+    }
+  }
+}
